@@ -1,0 +1,9 @@
+.overview {
+	text-align: left;
+	line-height: 3;
+	&__title {
+		display: inline-block;
+		width: 140px;
+		margin-right: 20px;
+	}
+}

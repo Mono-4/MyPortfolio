@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.container__comment {
+  margin-top: 0.6rem;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.container__portfolio {
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 4px;
+  border: 1px solid gray;
+  margin-top: 1rem;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.container__portfolio:hover {
+  background: gray;
+  color: white;
+}
+
+.title {
+  margin-top: 2rem;
+  letter-spacing: 0.25rem;
+  font-size: 2rem;
+  color: #202020;
+}
+
+.sub-title {
+  font-size: 1.25rem;
+  margin: 6rem 0 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.history {
+  text-align: left;
+  line-height: 2.5;
+}
+
+.history__date {
+  font-size: 0.8rem;
+  margin-right: 20px;
+}
+
+.overview {
+  text-align: left;
+  line-height: 3;
+}
+
+.overview__title {
+  display: inline-block;
+  width: 140px;
+  margin-right: 20px;
+}
+
+.sns {
+  text-align: left;
+}
+
+.sns__title {
+  width: 80px;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+.sns__link {
+  color: gray;
+  text-decoration: underline;
+}
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Raleway", "Noto Sans JP", sans-serif;
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: 0.05rem;
+  color: #3e3a39;
+  background: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=main.css.map */
